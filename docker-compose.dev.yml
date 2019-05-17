@@ -1,0 +1,18 @@
+version: '3'
+services:
+  web:
+    restart: always
+  web1:
+    restart: always
+  web2:
+    restart: always
+  web3:
+    restart: always
+  web4:
+    restart: always
+  web5:
+    restart: always
+  web6:
+    restart: always
+  web10:
+    restart: always

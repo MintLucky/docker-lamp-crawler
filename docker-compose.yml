@@ -1,0 +1,41 @@
+version: '3'
+services:
+  web:
+    build:
+      context: ./web
+      dockerfile: Dockerfile
+ 
+  web1:
+    build:
+      context: ./web1
+      dockerfile: Dockerfile
+
+  web2:
+    build:
+      context: ./web2
+      dockerfile: Dockerfile
+
+  web3:
+    build:
+      context: ./web3
+      dockerfile: Dockerfile
+
+  web4:
+    build:
+      context: ./web4
+      dockerfile: Dockerfile
+
+  web5:
+    build:
+      context: ./web5
+      dockerfile: Dockerfile
+
+  web6:
+    build:
+      context: ./web6
+      dockerfile: Dockerfile
+
+  web10:
+    build:
+      context: ./web10
+      dockerfile: Dockerfile
